@@ -2,10 +2,11 @@
 //  SceneDelegate.swift
 //  LiftApexPowerVault
 //
-//  Created by jin fu on 2024/11/13.
+//  Created by LiftApexPowerVault on 2024/11/13.
 //
 
 import UIKit
+import AdjustSdk
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -29,11 +30,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func sceneDidBecomeActive(_ scene: UIScene) {
         // Called when the scene has moved from an inactive state to an active state.
         // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
+        Adjust.trackSubsessionStart()
     }
 
     func sceneWillResignActive(_ scene: UIScene) {
         // Called when the scene will move from an active state to an inactive state.
         // This may occur due to temporary interruptions (ex. an incoming phone call).
+        Adjust.trackSubsessionEnd()
     }
 
     func sceneWillEnterForeground(_ scene: UIScene) {

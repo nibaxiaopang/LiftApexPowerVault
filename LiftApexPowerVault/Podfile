@@ -7,4 +7,5 @@ target 'LiftApexPowerVault' do
 
   # Pods for LiftApexPowerVault
   pod 'IQKeyboardManagerSwift'
+  pod 'Adjust'
 end

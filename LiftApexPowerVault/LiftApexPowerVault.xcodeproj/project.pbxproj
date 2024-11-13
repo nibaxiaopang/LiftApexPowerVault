@@ -28,6 +28,16 @@
 		FFABFDE22CE48C1200D8C27C /* LiftHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDE12CE48C1200D8C27C /* LiftHomeVC.swift */; };
 		FFABFDE42CE48C2400D8C27C /* LiftAboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDE32CE48C2400D8C27C /* LiftAboutVC.swift */; };
 		FFABFDE62CE48E6400D8C27C /* LiftPivacyPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDE52CE48E6400D8C27C /* LiftPivacyPolicyVC.swift */; };
+		FFABFDE82CE495E900D8C27C /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFABFDE72CE495E900D8C27C /* AdServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FFABFDEA2CE495EE00D8C27C /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFABFDE92CE495EE00D8C27C /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FFABFDEC2CE495F800D8C27C /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFABFDEB2CE495F800D8C27C /* AppTrackingTransparency.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FFABFDEE2CE495FD00D8C27C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFABFDED2CE495FD00D8C27C /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FFABFDF02CE4960200D8C27C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFABFDEF2CE4960200D8C27C /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FFABFDF22CE4960800D8C27C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFABFDF12CE4960800D8C27C /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FFABFDF42CE4960F00D8C27C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFABFDF32CE4960F00D8C27C /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FFABFDF62CE4965900D8C27C /* tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFABFDF52CE4965900D8C27C /* tap.mp3 */; };
+		FFABFDF92CE4969800D8C27C /* LiftNetReachManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDF82CE4969800D8C27C /* LiftNetReachManager.m */; };
+		FFABFDFD2CE496A900D8C27C /* UIViewController+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDFC2CE496A900D8C27C /* UIViewController+Ext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +66,19 @@
 		FFABFDE12CE48C1200D8C27C /* LiftHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftHomeVC.swift; sourceTree = "<group>"; };
 		FFABFDE32CE48C2400D8C27C /* LiftAboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftAboutVC.swift; sourceTree = "<group>"; };
 		FFABFDE52CE48E6400D8C27C /* LiftPivacyPolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftPivacyPolicyVC.swift; sourceTree = "<group>"; };
+		FFABFDE72CE495E900D8C27C /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		FFABFDE92CE495EE00D8C27C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		FFABFDEB2CE495F800D8C27C /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		FFABFDED2CE495FD00D8C27C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		FFABFDEF2CE4960200D8C27C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FFABFDF12CE4960800D8C27C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FFABFDF32CE4960F00D8C27C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FFABFDF52CE4965900D8C27C /* tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tap.mp3; sourceTree = "<group>"; };
+		FFABFDF72CE4969800D8C27C /* LiftNetReachManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiftNetReachManager.h; sourceTree = "<group>"; };
+		FFABFDF82CE4969800D8C27C /* LiftNetReachManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiftNetReachManager.m; sourceTree = "<group>"; };
+		FFABFDFA2CE4969A00D8C27C /* LiftApexPowerVault-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LiftApexPowerVault-Bridging-Header.h"; sourceTree = "<group>"; };
+		FFABFDFB2CE496A900D8C27C /* UIViewController+Ext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Ext.h"; sourceTree = "<group>"; };
+		FFABFDFC2CE496A900D8C27C /* UIViewController+Ext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Ext.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +86,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFABFDEE2CE495FD00D8C27C /* WebKit.framework in Frameworks */,
+				FFABFDF02CE4960200D8C27C /* UIKit.framework in Frameworks */,
 				AFE7D9204AE96CBD6C5732CD /* Pods_LiftApexPowerVault.framework in Frameworks */,
+				FFABFDEC2CE495F800D8C27C /* AppTrackingTransparency.framework in Frameworks */,
+				FFABFDE82CE495E900D8C27C /* AdServices.framework in Frameworks */,
+				FFABFDF22CE4960800D8C27C /* AVFoundation.framework in Frameworks */,
+				FFABFDEA2CE495EE00D8C27C /* AdSupport.framework in Frameworks */,
+				FFABFDF42CE4960F00D8C27C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +103,13 @@
 		899AB5C1C216446AFBD07BBD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FFABFDF32CE4960F00D8C27C /* Foundation.framework */,
+				FFABFDF12CE4960800D8C27C /* AVFoundation.framework */,
+				FFABFDEF2CE4960200D8C27C /* UIKit.framework */,
+				FFABFDED2CE495FD00D8C27C /* WebKit.framework */,
+				FFABFDEB2CE495F800D8C27C /* AppTrackingTransparency.framework */,
+				FFABFDE92CE495EE00D8C27C /* AdSupport.framework */,
+				FFABFDE72CE495E900D8C27C /* AdServices.framework */,
 				59093C7FDAD5EE301E02FB23 /* Pods_LiftApexPowerVault.framework */,
 			);
 			name = Frameworks;
@@ -129,6 +166,12 @@
 				FFABFDDF2CE48BEA00D8C27C /* UIViewController+ext.swift */,
 				FFABFDE12CE48C1200D8C27C /* LiftHomeVC.swift */,
 				FFABFDE32CE48C2400D8C27C /* LiftAboutVC.swift */,
+				FFABFDF72CE4969800D8C27C /* LiftNetReachManager.h */,
+				FFABFDF82CE4969800D8C27C /* LiftNetReachManager.m */,
+				FFABFDFB2CE496A900D8C27C /* UIViewController+Ext.h */,
+				FFABFDFC2CE496A900D8C27C /* UIViewController+Ext.m */,
+				FFABFDF52CE4965900D8C27C /* tap.mp3 */,
+				FFABFDFA2CE4969A00D8C27C /* LiftApexPowerVault-Bridging-Header.h */,
 			);
 			path = LiftApexPowerVault;
 			sourceTree = "<group>";
@@ -167,6 +210,7 @@
 				TargetAttributes = {
 					FFABFDA12CE4896600D8C27C = {
 						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
 					};
 				};
 			};
@@ -195,6 +239,7 @@
 			files = (
 				FFABFDC72CE4897300D8C27C /* Assets.xcassets in Resources */,
 				FFABFDC92CE4897300D8C27C /* LaunchScreen.storyboard in Resources */,
+				FFABFDF62CE4965900D8C27C /* tap.mp3 in Resources */,
 				FFABFDCA2CE4897300D8C27C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +297,7 @@
 				FFABFDCE2CE48AE700D8C27C /* LiftElevensVC.swift in Sources */,
 				FFABFDDE2CE48BC700D8C27C /* String+Ext.swift in Sources */,
 				FFABFDD82CE48B4F00D8C27C /* LiftWelcomeVC.swift in Sources */,
+				FFABFDF92CE4969800D8C27C /* LiftNetReachManager.m in Sources */,
 				FFABFDDA2CE48B6700D8C27C /* UIView+ext.swift in Sources */,
 				FFABFDCC2CE48AD600D8C27C /* LiftMathCardVC.swift in Sources */,
 				FFABFDE22CE48C1200D8C27C /* LiftHomeVC.swift in Sources */,
@@ -260,6 +306,7 @@
 				FFABFDC52CE4897300D8C27C /* SceneDelegate.swift in Sources */,
 				FFABFDC62CE4897300D8C27C /* ViewController.swift in Sources */,
 				FFABFDE62CE48E6400D8C27C /* LiftPivacyPolicyVC.swift in Sources */,
+				FFABFDFD2CE496A900D8C27C /* UIViewController+Ext.m in Sources */,
 				FFABFDD62CE48B3700D8C27C /* LiftElevensGame.swift in Sources */,
 				FFABFDE42CE48C2400D8C27C /* LiftAboutVC.swift in Sources */,
 				FFABFDD22CE48B0C00D8C27C /* LiftCardSuit.swift in Sources */,
@@ -296,12 +343,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LiftApexPowerVault/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "LiftApex PowerVault";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "LiftApex PowerVault requests access to your device information to optimize the app’s performance and personalize your gaming experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -313,11 +362,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.LiftApexPowerVault;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lift.Apex.PowerVault;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LiftApexPowerVault/LiftApexPowerVault-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -329,12 +380,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LiftApexPowerVault/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "LiftApex PowerVault";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "LiftApex PowerVault requests access to your device information to optimize the app’s performance and personalize your gaming experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -346,11 +399,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.LiftApexPowerVault;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lift.Apex.PowerVault;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LiftApexPowerVault/LiftApexPowerVault-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

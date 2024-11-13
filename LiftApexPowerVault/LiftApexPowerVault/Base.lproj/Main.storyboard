@@ -446,7 +446,7 @@ At LiftApex PowerVault, our mission is to build games that not only entertain bu
                         <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Gci-wh-uIA">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Gci-wh-uIA">
                                 <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                             </imageView>
                             <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1HW-5l-ic6">
@@ -457,16 +457,6 @@ At LiftApex PowerVault, our mission is to build games that not only entertain bu
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="99f-k6-jv4">
-                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="60"/>
-                                <color key="backgroundColor" name="appColor_white 1"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="QEx-jt-ttY"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YMO-FK-aMQ">
                                 <rect key="frame" x="0.0" y="0.0" width="852" height="60"/>
                                 <subviews>
@@ -493,7 +483,7 @@ At LiftApex PowerVault, our mission is to build games that not only entertain bu
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="btnBack:" destination="Qbu-Pe-WA1" eventType="touchUpInside" id="pZh-Ze-NX0"/>
+                                            <action selector="backAction:" destination="Qbu-Pe-WA1" eventType="touchUpInside" id="Lz9-5Q-FrH"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -507,16 +497,6 @@ At LiftApex PowerVault, our mission is to build games that not only entertain bu
                                     <constraint firstAttribute="height" constant="60" id="zFz-ru-MBS"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRK-bf-1Y7">
-                                <rect key="frame" x="852" y="0.0" width="0.0" height="60"/>
-                                <color key="backgroundColor" name="appColor_white 1"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="puC-63-wpH"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="kfg-DK-uvE">
                                 <rect key="frame" x="416" y="186.66666666666666" width="20" height="20"/>
                             </activityIndicatorView>
@@ -525,27 +505,30 @@ At LiftApex PowerVault, our mission is to build games that not only entertain bu
                         <color key="backgroundColor" name="appColor_black"/>
                         <constraints>
                             <constraint firstItem="kfg-DK-uvE" firstAttribute="centerY" secondItem="Awr-Y1-iw1" secondAttribute="centerY" id="0gS-8w-9rT"/>
-                            <constraint firstAttribute="trailing" secondItem="jRK-bf-1Y7" secondAttribute="trailing" id="8ux-dw-Atg"/>
                             <constraint firstItem="Gci-wh-uIA" firstAttribute="top" secondItem="Awr-Y1-iw1" secondAttribute="top" id="Csz-L1-E2k"/>
-                            <constraint firstItem="99f-k6-jv4" firstAttribute="top" secondItem="Awr-Y1-iw1" secondAttribute="top" id="JsE-OE-yg7"/>
                             <constraint firstItem="YMO-FK-aMQ" firstAttribute="top" secondItem="Vuw-gj-cEd" secondAttribute="top" id="MGf-zn-l1n"/>
                             <constraint firstAttribute="bottom" secondItem="1HW-5l-ic6" secondAttribute="bottom" id="Mm0-EM-Iba"/>
                             <constraint firstAttribute="bottom" secondItem="Gci-wh-uIA" secondAttribute="bottom" id="OL4-ur-jhW"/>
                             <constraint firstItem="YMO-FK-aMQ" firstAttribute="leading" secondItem="Vuw-gj-cEd" secondAttribute="leading" id="RPa-tD-IpW"/>
                             <constraint firstItem="1HW-5l-ic6" firstAttribute="top" secondItem="Awr-Y1-iw1" secondAttribute="top" id="SIW-Dd-QMs"/>
-                            <constraint firstItem="jRK-bf-1Y7" firstAttribute="top" secondItem="Awr-Y1-iw1" secondAttribute="top" id="Sgo-DX-N7q"/>
                             <constraint firstItem="Gci-wh-uIA" firstAttribute="leading" secondItem="Awr-Y1-iw1" secondAttribute="leading" id="WRB-WZ-Peb"/>
                             <constraint firstAttribute="trailing" secondItem="Gci-wh-uIA" secondAttribute="trailing" id="Y50-0s-a0z"/>
                             <constraint firstItem="kfg-DK-uvE" firstAttribute="centerX" secondItem="Awr-Y1-iw1" secondAttribute="centerX" id="dFy-cp-WLN"/>
                             <constraint firstItem="1HW-5l-ic6" firstAttribute="leading" secondItem="Awr-Y1-iw1" secondAttribute="leading" id="dnb-p7-96S"/>
                             <constraint firstAttribute="trailing" secondItem="1HW-5l-ic6" secondAttribute="trailing" id="iAq-a0-zIM"/>
-                            <constraint firstItem="99f-k6-jv4" firstAttribute="leading" secondItem="Awr-Y1-iw1" secondAttribute="leading" id="tuw-Ui-qYM"/>
-                            <constraint firstItem="YMO-FK-aMQ" firstAttribute="leading" secondItem="99f-k6-jv4" secondAttribute="trailing" id="uGx-6m-JpK"/>
                             <constraint firstItem="YMO-FK-aMQ" firstAttribute="trailing" secondItem="Vuw-gj-cEd" secondAttribute="trailing" id="uHX-aC-GaZ"/>
-                            <constraint firstItem="jRK-bf-1Y7" firstAttribute="leading" secondItem="YMO-FK-aMQ" secondAttribute="trailing" id="uyh-kO-Dle"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="EIa-hw-nww"/>
+                    <connections>
+                        <outlet property="activity" destination="kfg-DK-uvE" id="ugU-Cr-lR2"/>
+                        <outlet property="backBtn" destination="xgJ-wZ-chb" id="RPq-G5-ZXi"/>
+                        <outlet property="backView" destination="YMO-FK-aMQ" id="nYF-8l-lVE"/>
+                        <outlet property="bgView" destination="Gci-wh-uIA" id="XNK-qS-ClS"/>
+                        <outlet property="bottomConstants" destination="Mm0-EM-Iba" id="kPB-Ji-OKX"/>
+                        <outlet property="privicyWebView" destination="1HW-5l-ic6" id="bf4-R5-Rnr"/>
+                        <outlet property="topConstants" destination="SIW-Dd-QMs" id="nbv-mh-2DK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Trg-Ax-vs6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -562,7 +545,7 @@ At LiftApex PowerVault, our mission is to build games that not only entertain bu
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="sNX-37-Bf9">
                                 <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_card_pattern" translatesAutoresizingMaskIntoConstraints="NO" id="UEF-UJ-MtY">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="UEF-UJ-MtY">
                                 <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LiftApex PowerVault" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aN6-f0-Iop">
@@ -649,6 +632,9 @@ At LiftApex PowerVault, our mission is to build games that not only entertain bu
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="xgn-XQ-tNh">
+                                <rect key="frame" x="416" y="186.66666666666666" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zPy-b5-U7w"/>
                         <color key="backgroundColor" name="appColor_black"/>
@@ -657,6 +643,7 @@ At LiftApex PowerVault, our mission is to build games that not only entertain bu
                             <constraint firstItem="zPy-b5-U7w" firstAttribute="bottom" secondItem="ooH-jc-Tk8" secondAttribute="bottom" constant="16" id="1v7-fG-Jax"/>
                             <constraint firstItem="ooH-jc-Tk8" firstAttribute="top" secondItem="XQe-is-Qo8" secondAttribute="bottom" constant="16" id="3uC-gj-Dos"/>
                             <constraint firstItem="XQe-is-Qo8" firstAttribute="leading" secondItem="RJg-37-JMX" secondAttribute="trailing" constant="16" id="EAf-Qk-YyR"/>
+                            <constraint firstItem="xgn-XQ-tNh" firstAttribute="centerX" secondItem="U4g-6B-wBl" secondAttribute="centerX" id="FrP-iL-feI"/>
                             <constraint firstItem="sNX-37-Bf9" firstAttribute="top" secondItem="U4g-6B-wBl" secondAttribute="top" id="HL0-AU-auV"/>
                             <constraint firstItem="aN6-f0-Iop" firstAttribute="leading" secondItem="zPy-b5-U7w" secondAttribute="leading" id="Hm8-Z3-o9F"/>
                             <constraint firstItem="ooH-jc-Tk8" firstAttribute="leading" secondItem="aN6-f0-Iop" secondAttribute="trailing" constant="16" id="Lte-OR-QCW"/>
@@ -670,6 +657,7 @@ At LiftApex PowerVault, our mission is to build games that not only entertain bu
                             <constraint firstItem="UEF-UJ-MtY" firstAttribute="top" secondItem="zPy-b5-U7w" secondAttribute="top" id="fdH-n8-3fQ"/>
                             <constraint firstItem="aN6-f0-Iop" firstAttribute="trailing" secondItem="RJg-37-JMX" secondAttribute="trailing" id="h7O-GS-8yf"/>
                             <constraint firstAttribute="trailing" secondItem="UEF-UJ-MtY" secondAttribute="trailing" id="jg7-DG-6Ut"/>
+                            <constraint firstItem="xgn-XQ-tNh" firstAttribute="centerY" secondItem="U4g-6B-wBl" secondAttribute="centerY" id="nz6-N1-t4o"/>
                             <constraint firstAttribute="bottom" secondItem="RJg-37-JMX" secondAttribute="bottom" id="p3O-wy-95w"/>
                             <constraint firstAttribute="trailing" secondItem="sNX-37-Bf9" secondAttribute="trailing" id="peg-5m-dII"/>
                             <constraint firstItem="zPy-b5-U7w" firstAttribute="trailing" secondItem="ooH-jc-Tk8" secondAttribute="trailing" constant="16" id="tmO-Vq-J9D"/>
@@ -678,6 +666,7 @@ At LiftApex PowerVault, our mission is to build games that not only entertain bu
                     </view>
                     <navigationItem key="navigationItem" id="vQF-QC-Wry"/>
                     <connections>
+                        <outlet property="eliteActivityView" destination="xgn-XQ-tNh" id="x3k-db-pzD"/>
                         <outlet property="swipeButtonView" destination="2LU-Xy-DVl" id="27b-YT-xPr"/>
                         <outlet property="swipeImageView" destination="KK8-R9-ucr" id="UWm-NQ-7Ux"/>
                     </connections>
@@ -1057,7 +1046,6 @@ At LiftApex PowerVault, our mission is to build games that not only entertain bu
         <image name="hand.raised.circle.fill" catalog="system" width="128" height="123"/>
         <image name="ic_appIcon" width="1024" height="1024"/>
         <image name="ic_bg" width="3165" height="2110"/>
-        <image name="ic_card_pattern" width="3140" height="2094"/>
         <namedColor name="appColor_black">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

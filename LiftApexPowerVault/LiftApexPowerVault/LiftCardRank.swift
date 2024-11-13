@@ -2,7 +2,7 @@
 //  CardRank.swift
 //  LiftApexPowerVault
 //
-//  Created by jin fu on 2024/11/13.
+//  Created by LiftApexPowerVault on 2024/11/13.
 //
 
 import Foundation
