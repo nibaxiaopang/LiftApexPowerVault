@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFE7D9204AE96CBD6C5732CD /* Pods_LiftApexPowerVault.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59093C7FDAD5EE301E02FB23 /* Pods_LiftApexPowerVault.framework */; };
+		FFABFDC42CE4897300D8C27C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDBA2CE4897300D8C27C /* AppDelegate.swift */; };
+		FFABFDC52CE4897300D8C27C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDC12CE4897300D8C27C /* SceneDelegate.swift */; };
+		FFABFDC62CE4897300D8C27C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDC22CE4897300D8C27C /* ViewController.swift */; };
+		FFABFDC72CE4897300D8C27C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFABFDBB2CE4897300D8C27C /* Assets.xcassets */; };
+		FFABFDC92CE4897300D8C27C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFABFDBE2CE4897300D8C27C /* LaunchScreen.storyboard */; };
+		FFABFDCA2CE4897300D8C27C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFABFDC02CE4897300D8C27C /* Main.storyboard */; };
+		FFABFDCC2CE48AD600D8C27C /* LiftMathCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDCB2CE48AD600D8C27C /* LiftMathCardVC.swift */; };
+		FFABFDCE2CE48AE700D8C27C /* LiftElevensVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDCD2CE48AE700D8C27C /* LiftElevensVC.swift */; };
+		FFABFDD02CE48AFB00D8C27C /* LiftCardRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDCF2CE48AFB00D8C27C /* LiftCardRank.swift */; };
+		FFABFDD22CE48B0C00D8C27C /* LiftCardSuit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDD12CE48B0C00D8C27C /* LiftCardSuit.swift */; };
+		FFABFDD42CE48B1B00D8C27C /* LiftCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDD32CE48B1B00D8C27C /* LiftCard.swift */; };
+		FFABFDD62CE48B3700D8C27C /* LiftElevensGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDD52CE48B3700D8C27C /* LiftElevensGame.swift */; };
+		FFABFDD82CE48B4F00D8C27C /* LiftWelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDD72CE48B4F00D8C27C /* LiftWelcomeVC.swift */; };
+		FFABFDDA2CE48B6700D8C27C /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDD92CE48B6700D8C27C /* UIView+ext.swift */; };
+		FFABFDDC2CE48B9800D8C27C /* UITextField+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDDB2CE48B9800D8C27C /* UITextField+ext.swift */; };
+		FFABFDDE2CE48BC700D8C27C /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDDD2CE48BC700D8C27C /* String+Ext.swift */; };
+		FFABFDE02CE48BEA00D8C27C /* UIViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDDF2CE48BEA00D8C27C /* UIViewController+ext.swift */; };
+		FFABFDE22CE48C1200D8C27C /* LiftHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDE12CE48C1200D8C27C /* LiftHomeVC.swift */; };
+		FFABFDE42CE48C2400D8C27C /* LiftAboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDE32CE48C2400D8C27C /* LiftAboutVC.swift */; };
+		FFABFDE62CE48E6400D8C27C /* LiftPivacyPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFABFDE52CE48E6400D8C27C /* LiftPivacyPolicyVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59093C7FDAD5EE301E02FB23 /* Pods_LiftApexPowerVault.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiftApexPowerVault.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		787CD80411775DED30B10657 /* Pods-LiftApexPowerVault.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiftApexPowerVault.release.xcconfig"; path = "Target Support Files/Pods-LiftApexPowerVault/Pods-LiftApexPowerVault.release.xcconfig"; sourceTree = "<group>"; };
+		7E754979F5D6C33496289756 /* Pods-LiftApexPowerVault.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiftApexPowerVault.debug.xcconfig"; path = "Target Support Files/Pods-LiftApexPowerVault/Pods-LiftApexPowerVault.debug.xcconfig"; sourceTree = "<group>"; };
+		FFABFDA22CE4896600D8C27C /* LiftApexPowerVault.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiftApexPowerVault.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFABFDBA2CE4897300D8C27C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFABFDBB2CE4897300D8C27C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFABFDBC2CE4897300D8C27C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFABFDBD2CE4897300D8C27C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFABFDBF2CE4897300D8C27C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFABFDC12CE4897300D8C27C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFABFDC22CE4897300D8C27C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFABFDCB2CE48AD600D8C27C /* LiftMathCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftMathCardVC.swift; sourceTree = "<group>"; };
+		FFABFDCD2CE48AE700D8C27C /* LiftElevensVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftElevensVC.swift; sourceTree = "<group>"; };
+		FFABFDCF2CE48AFB00D8C27C /* LiftCardRank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftCardRank.swift; sourceTree = "<group>"; };
+		FFABFDD12CE48B0C00D8C27C /* LiftCardSuit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftCardSuit.swift; sourceTree = "<group>"; };
+		FFABFDD32CE48B1B00D8C27C /* LiftCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftCard.swift; sourceTree = "<group>"; };
+		FFABFDD52CE48B3700D8C27C /* LiftElevensGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftElevensGame.swift; sourceTree = "<group>"; };
+		FFABFDD72CE48B4F00D8C27C /* LiftWelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftWelcomeVC.swift; sourceTree = "<group>"; };
+		FFABFDD92CE48B6700D8C27C /* UIView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ext.swift"; sourceTree = "<group>"; };
+		FFABFDDB2CE48B9800D8C27C /* UITextField+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+ext.swift"; sourceTree = "<group>"; };
+		FFABFDDD2CE48BC700D8C27C /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		FFABFDDF2CE48BEA00D8C27C /* UIViewController+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ext.swift"; sourceTree = "<group>"; };
+		FFABFDE12CE48C1200D8C27C /* LiftHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftHomeVC.swift; sourceTree = "<group>"; };
+		FFABFDE32CE48C2400D8C27C /* LiftAboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftAboutVC.swift; sourceTree = "<group>"; };
+		FFABFDE52CE48E6400D8C27C /* LiftPivacyPolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiftPivacyPolicyVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFABFD9F2CE4896600D8C27C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE7D9204AE96CBD6C5732CD /* Pods_LiftApexPowerVault.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		899AB5C1C216446AFBD07BBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59093C7FDAD5EE301E02FB23 /* Pods_LiftApexPowerVault.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B06D4183B4F3E25D1EC82BDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E754979F5D6C33496289756 /* Pods-LiftApexPowerVault.debug.xcconfig */,
+				787CD80411775DED30B10657 /* Pods-LiftApexPowerVault.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FFABFD992CE4896600D8C27C = {
+			isa = PBXGroup;
+			children = (
+				FFABFDC32CE4897300D8C27C /* LiftApexPowerVault */,
+				FFABFDA32CE4896600D8C27C /* Products */,
+				B06D4183B4F3E25D1EC82BDA /* Pods */,
+				899AB5C1C216446AFBD07BBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFABFDA32CE4896600D8C27C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFABFDA22CE4896600D8C27C /* LiftApexPowerVault.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFABFDC32CE4897300D8C27C /* LiftApexPowerVault */ = {
+			isa = PBXGroup;
+			children = (
+				FFABFDBA2CE4897300D8C27C /* AppDelegate.swift */,
+				FFABFDC12CE4897300D8C27C /* SceneDelegate.swift */,
+				FFABFDBB2CE4897300D8C27C /* Assets.xcassets */,
+				FFABFDBC2CE4897300D8C27C /* Info.plist */,
+				FFABFDBE2CE4897300D8C27C /* LaunchScreen.storyboard */,
+				FFABFDC02CE4897300D8C27C /* Main.storyboard */,
+				FFABFDC22CE4897300D8C27C /* ViewController.swift */,
+				FFABFDD72CE48B4F00D8C27C /* LiftWelcomeVC.swift */,
+				FFABFDE52CE48E6400D8C27C /* LiftPivacyPolicyVC.swift */,
+				FFABFDCB2CE48AD600D8C27C /* LiftMathCardVC.swift */,
+				FFABFDCD2CE48AE700D8C27C /* LiftElevensVC.swift */,
+				FFABFDCF2CE48AFB00D8C27C /* LiftCardRank.swift */,
+				FFABFDD12CE48B0C00D8C27C /* LiftCardSuit.swift */,
+				FFABFDD32CE48B1B00D8C27C /* LiftCard.swift */,
+				FFABFDD52CE48B3700D8C27C /* LiftElevensGame.swift */,
+				FFABFDD92CE48B6700D8C27C /* UIView+ext.swift */,
+				FFABFDDB2CE48B9800D8C27C /* UITextField+ext.swift */,
+				FFABFDDD2CE48BC700D8C27C /* String+Ext.swift */,
+				FFABFDDF2CE48BEA00D8C27C /* UIViewController+ext.swift */,
+				FFABFDE12CE48C1200D8C27C /* LiftHomeVC.swift */,
+				FFABFDE32CE48C2400D8C27C /* LiftAboutVC.swift */,
+			);
+			path = LiftApexPowerVault;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFABFDA12CE4896600D8C27C /* LiftApexPowerVault */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFABFDB52CE4896700D8C27C /* Build configuration list for PBXNativeTarget "LiftApexPowerVault" */;
+			buildPhases = (
+				557E7B9D33C31F10D40D7703 /* [CP] Check Pods Manifest.lock */,
+				FFABFD9E2CE4896600D8C27C /* Sources */,
+				FFABFD9F2CE4896600D8C27C /* Frameworks */,
+				FFABFDA02CE4896600D8C27C /* Resources */,
+				41A1F9DB3736E2A71F5F68B0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiftApexPowerVault;
+			productName = LiftApexPowerVault;
+			productReference = FFABFDA22CE4896600D8C27C /* LiftApexPowerVault.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFABFD9A2CE4896600D8C27C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FFABFDA12CE4896600D8C27C = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = FFABFD9D2CE4896600D8C27C /* Build configuration list for PBXProject "LiftApexPowerVault" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFABFD992CE4896600D8C27C;
+			productRefGroup = FFABFDA32CE4896600D8C27C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFABFDA12CE4896600D8C27C /* LiftApexPowerVault */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFABFDA02CE4896600D8C27C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFABFDC72CE4897300D8C27C /* Assets.xcassets in Resources */,
+				FFABFDC92CE4897300D8C27C /* LaunchScreen.storyboard in Resources */,
+				FFABFDCA2CE4897300D8C27C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41A1F9DB3736E2A71F5F68B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiftApexPowerVault/Pods-LiftApexPowerVault-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiftApexPowerVault/Pods-LiftApexPowerVault-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LiftApexPowerVault/Pods-LiftApexPowerVault-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		557E7B9D33C31F10D40D7703 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiftApexPowerVault-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFABFD9E2CE4896600D8C27C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFABFDE02CE48BEA00D8C27C /* UIViewController+ext.swift in Sources */,
+				FFABFDCE2CE48AE700D8C27C /* LiftElevensVC.swift in Sources */,
+				FFABFDDE2CE48BC700D8C27C /* String+Ext.swift in Sources */,
+				FFABFDD82CE48B4F00D8C27C /* LiftWelcomeVC.swift in Sources */,
+				FFABFDDA2CE48B6700D8C27C /* UIView+ext.swift in Sources */,
+				FFABFDCC2CE48AD600D8C27C /* LiftMathCardVC.swift in Sources */,
+				FFABFDE22CE48C1200D8C27C /* LiftHomeVC.swift in Sources */,
+				FFABFDC42CE4897300D8C27C /* AppDelegate.swift in Sources */,
+				FFABFDD02CE48AFB00D8C27C /* LiftCardRank.swift in Sources */,
+				FFABFDC52CE4897300D8C27C /* SceneDelegate.swift in Sources */,
+				FFABFDC62CE4897300D8C27C /* ViewController.swift in Sources */,
+				FFABFDE62CE48E6400D8C27C /* LiftPivacyPolicyVC.swift in Sources */,
+				FFABFDD62CE48B3700D8C27C /* LiftElevensGame.swift in Sources */,
+				FFABFDE42CE48C2400D8C27C /* LiftAboutVC.swift in Sources */,
+				FFABFDD22CE48B0C00D8C27C /* LiftCardSuit.swift in Sources */,
+				FFABFDD42CE48B1B00D8C27C /* LiftCard.swift in Sources */,
+				FFABFDDC2CE48B9800D8C27C /* UITextField+ext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFABFDBE2CE4897300D8C27C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFABFDBD2CE4897300D8C27C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FFABFDC02CE4897300D8C27C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFABFDBF2CE4897300D8C27C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFABFDB62CE4896700D8C27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E754979F5D6C33496289756 /* Pods-LiftApexPowerVault.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiftApexPowerVault/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "LiftApex PowerVault";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiftApexPowerVault;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FFABFDB72CE4896700D8C27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 787CD80411775DED30B10657 /* Pods-LiftApexPowerVault.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiftApexPowerVault/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "LiftApex PowerVault";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LiftApexPowerVault;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FFABFDB82CE4896700D8C27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFABFDB92CE4896700D8C27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFABFD9D2CE4896600D8C27C /* Build configuration list for PBXProject "LiftApexPowerVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFABFDB82CE4896700D8C27C /* Debug */,
+				FFABFDB92CE4896700D8C27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFABFDB52CE4896700D8C27C /* Build configuration list for PBXNativeTarget "LiftApexPowerVault" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFABFDB62CE4896700D8C27C /* Debug */,
+				FFABFDB72CE4896700D8C27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFABFD9A2CE4896600D8C27C /* Project object */;
+}
