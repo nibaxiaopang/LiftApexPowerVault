@@ -48,7 +48,7 @@ class LiftWelcomeVC: UIViewController {
         
         if onceTrack == false  {
             onceTrack = true
-            DispatchQueue.global().asyncAfter(deadline: .now() + 0.2) {
+            DispatchQueue.global().asyncAfter(deadline: .now() + 0.4) {
                 if #available(iOS 14, *) {
                     ATTrackingManager.requestTrackingAuthorization { status in
                         NotificationCenter.default.post(name: .LiftATTrackingNotification, object: nil, userInfo: nil)
