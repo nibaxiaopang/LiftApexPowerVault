@@ -915,6 +915,9 @@ At LiftApex PowerVault, our mission is to build games that not only entertain bu
                                                 <real key="value" value="8"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="backAction:" destination="ajt-J9-yDk" eventType="touchUpInside" id="VEA-6c-Uhj"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kry-r8-XVb">
                                         <rect key="frame" x="674" y="8" width="44" height="44"/>
