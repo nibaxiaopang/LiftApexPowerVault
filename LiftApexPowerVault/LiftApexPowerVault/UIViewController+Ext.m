@@ -27,7 +27,7 @@
 
 - (NSString *)liftPrivicyUrl
 {
-    return @"https://www.termsfeed.com/live/9c03b938-861a-46bc-b9a6-6087e26c912a";
+    return @"https://www.termsfeed.com/live/7e3d98d6-886e-4988-bbd0-d953b81b6881";
 }
 
 - (BOOL)liftNeedShowAdsBann
